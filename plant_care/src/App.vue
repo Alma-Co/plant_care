@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import ReloadPrompt from "./components/ReloadPrompt.vue";
+</script>
 
 <template>
   <header>
@@ -29,8 +31,7 @@
       </nav>
     </div> -->
   </header>
-
-  <RouterView />
+  <ReloadPrompt />
 </template>
 
 <style lang="scss">
