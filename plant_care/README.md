@@ -18,5 +18,6 @@ npm run build
 ### Dependencies
 
 Eslint, Prettier, Pinia, Sass, Fontawesome icons
+FavIcon: https://realfavicongenerator.net/
 
 
