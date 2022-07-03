@@ -9,6 +9,7 @@
       >.
     </p>
     <h3>Installed CLI Plugins</h3>
+    <font-awesome-icon icon="phone" />
     <ul>
       <li>
         <a
