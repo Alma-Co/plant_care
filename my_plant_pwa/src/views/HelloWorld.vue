@@ -19,6 +19,12 @@
           >babel</a
         >
       </li>
+      <div class="item-main">
+        <div class="item-wrapper-text">
+          <p>plant name</p>
+          <img src="../assets/logo.png" class="item-image" />
+        </div>
+      </div>
       <li>
         <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
@@ -119,5 +125,23 @@ li {
 }
 a {
   color: #42b983;
+}
+.item-main {
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.item-wrapper-text {
+  max-width: 180px;
+  height: 130px;
+  border-radius: 12px;
+  background-color: #ede6db;
+  color: black;
+  padding: 10px;
+}
+
+.item-image {
+  height: 144px;
+  margin-bottom: 10px;
 }
 </style>

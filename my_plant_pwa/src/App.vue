@@ -2,10 +2,12 @@
 <!--App.vue -->
 <script>
 import FooterNav from "./components/FooterNav.vue";
+import HeaderNav from "./components/HeaderNav.vue";
 
 export default {
   components: {
     FooterNav,
+    HeaderNav,
   },
   name: "App",
 };
@@ -14,7 +16,8 @@ export default {
 <template>
   <!-- This serves all our pages using vue router -->
   <router-view v-slot="{ Component }">
-    <main class="main">
+    <HeaderNav />
+    <main class="app-main">
       <transition name="fade" mode="out-in">
         <component :is="Component" :key="$route.path" />
       </transition>
@@ -25,7 +28,7 @@ export default {
 </template>
 
 <style>
-.main {
+.app-main {
   padding: 0px 20px;
 }
 .fade-enter-active,
