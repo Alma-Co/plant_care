@@ -29,7 +29,10 @@ export default {
 
 <style>
 .app-main {
+  font-family: "Poppins", sans-serif;
   padding: 0px 20px;
+  background-color: #f6f0f1;
+  margin-top: 80px;
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -38,5 +41,10 @@ export default {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+@media only screen and (min-width: 768px) {
+  .app-main {
+    margin-left: 10%;
+  }
 }
 </style>
