@@ -12,8 +12,8 @@
 </template>
 <style>
 .header-main {
-  /* font-family: "Indie Flower", cursive; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Indie Flower", cursive;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -25,23 +25,24 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 25px 0px 25px;
-  background: linear-gradient(#f6f0f1, #00838f);
-  box-shadow: rgba(76, 72, 72, 0.31) 0px 2px 20px;
+  border-radius: 4px;
+  background: white;
+  box-shadow: rgba(76, 72, 72, 0.31) 0px 2px 10px;
   z-index: 2;
 }
 .header-title {
-  color: white;
+  color: #00838f;
   font-size: 24px;
 }
 .header-button {
-  color: #00838f;
-  border-color: #00838f;
+  border-color: gray;
+  background-color: #00838f;
   border-radius: 50px;
   padding: 2px 4px;
   margin-left: 30px;
 }
 .header-icon {
-  color: #00838f;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {

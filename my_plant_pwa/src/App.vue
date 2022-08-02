@@ -31,7 +31,7 @@ export default {
 .app-main {
   font-family: "Poppins", sans-serif;
   padding: 0px 20px;
-  background-color: #f6f0f1;
+  background-color: #faf8f8;
   margin-top: 80px;
 }
 .fade-enter-active,

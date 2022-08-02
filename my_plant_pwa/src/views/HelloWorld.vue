@@ -45,15 +45,18 @@ export default {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 .item-main {
   box-shadow: 0px 0px 18px rgb(0 0 0 / 8%);
   border-radius: 10px;
-  margin: 0 10px;
+
   background-color: white;
   color: black;
   padding: 10px;
+  & + & {
+    margin-left: 20px;
+  }
 }
 
 .item-image {
